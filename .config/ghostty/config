@@ -1,6 +1,6 @@
 font-family = "FiraCode Nerd Font Mono"
 font-size = 13
-theme = light:catppuccin-latte,dark:catppuccin-macchiato
+theme = light:catppuccin-latte,dark:catppuccin-mocha
 window-padding-x = 10
 window-padding-y = 10
 window-theme = ghostty
