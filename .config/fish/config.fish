@@ -1,5 +1,5 @@
 if status is-interactive
-    set_bat_theme
+    set_day_night_themes
 end
 
 starship init fish | source
