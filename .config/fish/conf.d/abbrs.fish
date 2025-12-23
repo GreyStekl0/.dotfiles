@@ -5,3 +5,4 @@ abbr -a ls 'eza --icons'
 abbr -a sudo doas
 abbr -a man tldr
 abbr -a lg lazygit
+abbr -a npx bunx
