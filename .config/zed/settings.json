@@ -31,8 +31,8 @@
     "modal_max_width": "medium",
   },
   // NOTE: Change the font family to your preference
-  "buffer_font_family": "Monaspace Neon Frozen",
-  "helix_mode": false,
+  "buffer_font_family": "Monaspace Neon NF",
+  "helix_mode": true,
   // use relative line numbers
   "relative_line_numbers": "enabled",
   "tab_bar": {
