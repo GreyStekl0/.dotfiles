@@ -28,7 +28,7 @@
   "buffer_font_size": 18,
   // Finder model width
   "file_finder": {
-    "modal_width": "medium",
+    "modal_max_width": "medium",
   },
   // NOTE: Change the font family to your preference
   "buffer_font_family": "Monaspace Neon Frozen",
@@ -54,6 +54,7 @@
   },
   // Use Copilot Chat AI as default
   "agent": {
+    "dock": "left",
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
@@ -91,9 +92,6 @@
   },
   // Move some unnecessary panels to the left
   "notification_panel": {
-    "dock": "left",
-  },
-  "chat_panel": {
     "dock": "left",
   },
 }
