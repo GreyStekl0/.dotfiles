@@ -66,6 +66,14 @@
   "inlay_hints": {
     "enabled": true,
   },
+  "lsp": {
+    "tinymist": {
+      "settings": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/$name",
+      },
+    },
+  },
   // Use zed commit editor
   "terminal": {
     "font_family": "FiraCode Nerd Font Mono",
