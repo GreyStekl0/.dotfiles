@@ -15,8 +15,8 @@
     "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha",
   },
-  "features": {
-    "edit_prediction_provider": "copilot",
+  "edit_predictions": {
+    "provider": "copilot",
   },
   "base_keymap": "JetBrains",
   "theme": {
@@ -32,11 +32,15 @@
   },
   // NOTE: Change the font family to your preference
   "buffer_font_family": "Monaspace Neon NF",
+  // Helix mode settings
   "helix_mode": true,
   // use relative line numbers
   "relative_line_numbers": "enabled",
   "tab_bar": {
     "show": true,
+  },
+  "scrollbar": {
+    "show": "never",
   },
   // Only show error on tab
   "tabs": {
@@ -66,11 +70,12 @@
   "inlay_hints": {
     "enabled": true,
   },
+  // LSP
   "lsp": {
     "tinymist": {
       "settings": {
         "exportPdf": "onSave",
-        "outputPath": "$root/$name",
+        "outputPath": "$dir/$name",
       },
     },
   },

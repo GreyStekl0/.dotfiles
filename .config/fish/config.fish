@@ -1,6 +1,4 @@
-if status is-interactive
-    set_day_night_themes
-end
+source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 starship init fish | source
 zoxide init fish | source
