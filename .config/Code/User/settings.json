@@ -1,0 +1,35 @@
+{
+    // theme
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+    "workbench.preferredHighContrastLightColorTheme": "GitHub Dark High Contrast",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.presets.hideExplorerArrows": true,
+    "workbench.tree.indent": 14,
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "'monaspace neon NF'",
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "update.mode": "none",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font Mono'",
+    // c/cpp
+    "clangd.path": "/usr/bin/clangd",
+    "cmake.cmakePath": "/usr/bin/cmake",
+    // extensions
+    "projectManager.git.baseFolders": [
+        "~/Projects/"
+    ],
+    "excalidraw.theme": "auto",
+    "excalidraw.workspaceLibraryPath": ".",
+    "hediet.vscode-drawio.appearance": "automatic",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:claude-sonnet-4.6",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-3-flash-preview",
+    "git.autofetch": true,
+}

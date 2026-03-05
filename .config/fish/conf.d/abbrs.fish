@@ -6,3 +6,4 @@ abbr -a sudo doas
 abbr -a lg lazygit
 abbr -a npx bunx
 abbr -a pipx uvx
+abbr -a brew zb
