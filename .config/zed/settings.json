@@ -7,6 +7,11 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    }
+  },
   "git_panel": {
     "dock": "right",
   },
@@ -33,7 +38,7 @@
   // NOTE: Change the font family to your preference
   "buffer_font_family": "Monaspace Neon NF",
   // Helix mode settings
-  "helix_mode": true,
+  "helix_mode": false,
   // use relative line numbers
   "relative_line_numbers": "enabled",
   "tab_bar": {
@@ -58,11 +63,23 @@
   },
   // Use Copilot Chat AI as default
   "agent": {
+    "favorite_models": [
+      {
+        "provider": "copilot_chat",
+        "model": "claude-sonnet-4.6",
+        "enable_thinking": false
+      },
+      {
+        "provider": "copilot_chat",
+        "model": "claude-opus-4.6",
+        "enable_thinking": false
+      }
+    ],
     "dock": "left",
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5",
+      "model": "claude-opus-4.6",
     },
     "model_parameters": [],
   },
