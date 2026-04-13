@@ -1,0 +1,47 @@
+workspace "home"
+workspace "terminal"
+workspace "work"
+workspace "game"
+
+    window-rule {
+        geometry-corner-radius 20 // Set every window radius to 20
+        clip-to-geometry true
+    }
+
+    window-rule {
+        match app-id="io.github.kukuruzka165.materialgram"
+        match app-id="zen"
+        match app-id="helium"
+        open-on-workspace "home"
+    }
+
+    window-rule {
+        match app-id="jetbrains-studio"
+        match app-id="jetbrains-idea"
+        match app-id="code"
+        open-on-workspace "work"
+    }
+
+    window-rule {
+        match app-id="Alacritty"
+        match app-id="obsidian"
+        open-on-workspace "terminal"
+    }
+
+    window-rule {
+        match app-id="steam"
+        open-on-workspace "game"
+    }
+
+    window-rule {
+        match app-id="zen"
+        match app-id="jetbrains-studio"
+        match app-id="jetbrains-idea"
+        match app-id="jetbrains-webstorm"
+        open-maximized true
+    }
+
+    layer-rule {
+        match namespace="^noctalia-wallpaper*"
+        place-within-backdrop true
+    }

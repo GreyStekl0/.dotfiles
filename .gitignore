@@ -1,3 +1,2 @@
 /.config/fish/fish_variables
-/.config/micro/buffers
-/.config/micro/syntax
+/.config/helix/runtime
