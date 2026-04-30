@@ -14,9 +14,14 @@ input {
 
     touchpad {
         tap // Enable tap-to-click
-        accel-speed 0.1
         natural-scroll // Enable natural (macOS-style) scrolling
-        accel-profile "adaptive"
+    }
+
+    mouse {
+        // If you want to disable Mouse Acceleration,
+        // uncomment the lines below.
+        //accel-profile "flat"
+        //accel-speed 0.0
     }
 
     // Focus windows and outputs automatically when moving the mouse into them.
@@ -24,9 +29,3 @@ input {
     focus-follows-mouse max-scroll-amount="0%"
     workspace-auto-back-and-forth // Enable workspace back & forth switching
 }
-
-cursor {
-    xcursor-theme "Bibata-Modern-Amber"
-    xcursor-size 24
-}
-
